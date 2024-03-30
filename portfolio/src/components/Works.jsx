@@ -97,4 +97,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "Works");
+export default SectionWrapper(Works, "tech");

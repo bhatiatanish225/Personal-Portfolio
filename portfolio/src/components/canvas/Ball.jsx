@@ -9,6 +9,7 @@ import {
 } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import { MotionValue } from "framer-motion";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
