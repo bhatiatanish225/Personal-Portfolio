@@ -28,6 +28,12 @@ import {
   paisaposcket
 } from "../assets";
 
+const randomImage = "https://source.unsplash.com/random/400x300"; // URL for a random image from Unsplash
+const invader="https://th.bing.com/th/id/OIP.ju2hWFm6cocKNBe84mWMqAHaEL?rs=1&pid=ImgDetMain"
+const imagemanage="https://th.bing.com/th/id/OIP.6GPYPBN8KFIOuOSw88ViWQHaET?rs=1&pid=ImgDetMain"
+const cabbooking="https://www.octalsoftware.co.uk/blog/wp-content/uploads/2018/01/taxi-booking.jpg"
+const iete="https://www.mailprotector.com/wp-content/uploads/2021/11/website-hacked-mailprotector-wordpress-scaled.jpg"
+
 export const navLinks = [
   {
     id: "about",
@@ -40,6 +46,11 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "resume",
+    title: "Resume",
+    href: "https://drive.google.com/file/d/1TaYsK4xG6hvUpM3739Mk_zYSaIJJoZPd/view?usp=sharing",
   },
 ];
 
@@ -57,15 +68,17 @@ const services = [
     icon: backend,
   },
   {
+    title: "GoLang",
+    icon: web,
+  },
+  {
     title: "BlockChain",
     icon: mobile,
   },
-
   {
     title: "Flutter",
     icon: web,
   },
-
   {
     title: "Designer",
     icon: creator,
@@ -93,10 +106,6 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -212,8 +221,7 @@ const testimonials = [
 const projects = [
   {
     name: "Personal Portfolio",
-    description:
-      "",
+    description: "",
     tags: [
       {
         name: "react",
@@ -233,9 +241,7 @@ const projects = [
   },
   {
     name: "Paisa Pocket",
-    description:"Welcome to Trustworthy Investing, an innovative platform designed to empower users to invest with confidence and security. Our platform combines automated investment strategies, risk assessment tools, and robust security measures to provide users with a seamless and trustworthy investment experience.",
-
-      
+    
     tags: [
       {
         name: "react",
@@ -249,11 +255,11 @@ const projects = [
         name: "MongoDB",
         color: "pink-text-gradient",
       },
-	  {
+      {
         name: "BlockChain",
         color: "blue-text-gradient",
       },
-	  {
+      {
         name: "Machine Learning",
         color: "pink-text-gradient",
       },
@@ -261,7 +267,66 @@ const projects = [
     image: paisaposcket,
     source_code_link: "https://github.com/bhatiatanish225/HackMol-5.0",
   },
-  
+  {
+    name: "IETE Flagathon Website",
+    description: "",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: iete, // Use random image if not available
+    source_code_link: "https://ietetiet.com/",
+  },
+  {
+    name: "Employee Management Website",
+    description: "",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: imagemanage, // Use random image if not available
+    source_code_link: "https://github.com/bhatiatanish225/Employee-Managment-App",
+  },
+  {
+    name: "Decentralized Cab Booking System",
+    description: "",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "BlockChain",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cabbooking, // Use random image if not available
+    source_code_link: "https://github.com/bhatiatanish225/Hacplise4.0",
+  },
+  {
+    name: "Space Invader Game",
+    description: "",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: invader, // Use random image if not available
+    source_code_link: "https://github.com/bhatiatanish225/Space-Invader-Game-Using-python",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
