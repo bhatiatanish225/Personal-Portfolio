@@ -56,7 +56,7 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               {nav.id === "resume" ? (
-                <a href="https://drive.google.com/file/d/1TaYsK4xG6hvUpM3739Mk_zYSaIJJoZPd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1O2rU8sGnRSJcF_bQ1GPHW25WkYRbSqtK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                   {nav.title}
                 </a>
               ) : (
